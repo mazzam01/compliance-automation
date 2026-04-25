@@ -102,10 +102,12 @@ python scripts/evidence_collector.py
 
 - [x] CloudTrail enabled
 - [x] AWS Config enabled
-- [ ] Config Rules defined
+- [x] Config Rules defined (MFA, S3, EBS)
+- [x] Fixed: S3 public access blocked ✅
 - [ ] Evidence collector script
 - [ ] Automated report generation
 - [ ] Slack alerts for failing controls
+
 
 ---
 
