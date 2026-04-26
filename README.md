@@ -120,5 +120,8 @@ DevOps & Security Enthusiast | Building in public 🚀
 Based on: *50 DevOps Projects* by Aditya Jaiswal
 
 ---
+## 📸 Screenshots
 
+### Compliance Report Dashboard
+![Compliance Report](docs/report-screenshot.png)
 > ⚠️ This is a learning project built for portfolio purposes. Not intended for production use without review.

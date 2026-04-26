@@ -17,7 +17,7 @@
     </head>
     <body>
         <h1>🔐 Compliance Report</h1>
-        <p>Generated: 2026-04-26 20:20:06</p>
+        <p>Generated: 2026-04-26 20:46:44</p>
         <div class="summary">
             <div class="card green"><h2>0</h2><p>Compliant</p></div>
             <div class="card red"><h2>3</h2><p>Non-Compliant</p></div>
@@ -28,17 +28,17 @@
         <tr>
             <td>❌ encrypted-volumes</td>
             <td style="color:#e74c3c; font-weight:bold">INSUFFICIENT_DATA</td>
-            <td>2026-04-26 20:20:06</td>
+            <td>2026-04-26 20:46:44</td>
         </tr>
         <tr>
             <td>❌ mfa-enabled-for-iam-console-access</td>
             <td style="color:#e74c3c; font-weight:bold">INSUFFICIENT_DATA</td>
-            <td>2026-04-26 20:20:06</td>
+            <td>2026-04-26 20:46:44</td>
         </tr>
         <tr>
             <td>❌ s3-bucket-public-read-prohibited</td>
             <td style="color:#e74c3c; font-weight:bold">NON_COMPLIANT</td>
-            <td>2026-04-26 20:20:06</td>
+            <td>2026-04-26 20:46:44</td>
         </tr>
         </table>
     </body>
