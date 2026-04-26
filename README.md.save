@@ -1,4 +1,3 @@
-
 # 🔐 Automated Compliance Reporting for SOC 2 / ISO 27001
 
 ![AWS](https://img.shields.io/badge/AWS-CloudTrail%20%7C%20Config%20%7C%20S3-orange?logo=amazon-aws)
@@ -105,10 +104,10 @@ python scripts/evidence_collector.py
 - [x] AWS Config enabled
 - [x] Config Rules defined (MFA, S3, EBS)
 - [x] Fixed: S3 public access blocked ✅
-- [x] Evidence collector script
+- [x] MFA enabled for azzam-admin ✅ ] Evidence collector script
 - [ ] Automated report generation
 - [ ] Slack alerts for failing controls
-- [x] MFA enabled for azzam-admin ✅
+
 
 ---
 
