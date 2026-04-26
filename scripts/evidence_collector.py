@@ -19,7 +19,7 @@ def generate_report(data):
     print(f"  Date: {datetime.now().strftime('%Y-%m-%d %H:%M')}")
     print("=============================\n")
     for item in data:
-        status = "✅ COMPLIANT" if item['status'] == "COMPLIANT" else "❌ NON_COMPLIANT"
+        status = "COMPLIANT" if item['status'] == "COMPLIANT" else " NON_COMPLIANT"
         print(f"{status} — {item['rule']}")
     print("\n=============================\n")
 
