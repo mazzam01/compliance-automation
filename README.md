@@ -122,6 +122,5 @@ Based on: *50 DevOps Projects* by Aditya Jaiswal
 ---
 ## 📸 Screenshots
 
-### Compliance Report Dashboard
-![Compliance Report](docs/report-screenshot.png)
+![Compliance Report](docs/Screenshot%20from%202026-04-26%2020-55-39.png)
 > ⚠️ This is a learning project built for portfolio purposes. Not intended for production use without review.
