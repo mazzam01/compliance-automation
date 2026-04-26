@@ -101,14 +101,15 @@ python scripts/evidence_collector.py
 
 ## 📈 Progress
 
-- [x] CloudTrail enabled
-- [x] AWS Config enabled
-- [x] Config Rules defined (MFA, S3, EBS)
+- [x] CloudTrail enabled ✅
+- [x] AWS Config enabled ✅
+- [x] Config Rules defined (MFA, S3, EBS) ✅
 - [x] Fixed: S3 public access blocked ✅
-- [x] Evidence collector script
-- [ ] Automated report generation
-- [ ] Slack alerts for failing controls
 - [x] MFA enabled for azzam-admin ✅
+- [x] Evidence collector script ✅
+- [x] Automated HTML report generation ✅
+- [x] Daily cron job (runs every day at 9AM) ✅
+- [ ] Slack alerts for failing controls
 
 ---
 
