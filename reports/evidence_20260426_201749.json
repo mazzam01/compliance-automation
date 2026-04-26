@@ -1,0 +1,17 @@
+[
+  {
+    "rule": "encrypted-volumes",
+    "status": "INSUFFICIENT_DATA",
+    "timestamp": "2026-04-26 20:17:49"
+  },
+  {
+    "rule": "mfa-enabled-for-iam-console-access",
+    "status": "INSUFFICIENT_DATA",
+    "timestamp": "2026-04-26 20:17:49"
+  },
+  {
+    "rule": "s3-bucket-public-read-prohibited",
+    "status": "NON_COMPLIANT",
+    "timestamp": "2026-04-26 20:17:49"
+  }
+]

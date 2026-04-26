@@ -9,7 +9,8 @@ def get_config_compliance():
     for rule in response['ComplianceByConfigRules']:
         results.append({
             'rule': rule['ConfigRuleName'],
-            'status': rule['Compliance']['ComplianceType']
+            'status': rule['Compliance']['ComplianceType'],
+            'timestamp': datetime.now().strftime('%Y-%m-%d %H:%M:%S')
         })
     return results
 
@@ -19,10 +20,17 @@ def generate_report(data):
     print(f"  Date: {datetime.now().strftime('%Y-%m-%d %H:%M')}")
     print("=============================\n")
     for item in data:
-        status = "COMPLIANT" if item['status'] == "COMPLIANT" else " NON_COMPLIANT"
+        status = "✅ COMPLIANT" if item['status'] == "COMPLIANT" else "❌ NON_COMPLIANT"
         print(f"{status} — {item['rule']}")
     print("\n=============================\n")
+
+def save_evidence(data):
+    filename = f"reports/evidence_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
+    with open(filename, 'w') as f:
+        json.dump(data, f, indent=2)
+    print(f"✅ Evidence saved to: {filename}")
 
 if __name__ == "__main__":
     data = get_config_compliance()
     generate_report(data)
+    save_evidence(data)
