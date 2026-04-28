@@ -109,7 +109,7 @@ python scripts/evidence_collector.py
 - [x] Evidence collector script ✅
 - [x] Automated HTML report generation ✅
 - [x] Daily cron job (runs every day at 9AM) ✅
-- [ ] Slack alerts for failing controls
+- [x] Slack alerts for failing controls
 
 ---
 
@@ -117,7 +117,6 @@ python scripts/evidence_collector.py
 
 **[Momen Alazzam]**  
 DevOps & Security Enthusiast | Building in public 🚀  
-Based on: *50 DevOps Projects* by Aditya Jaiswal
 
 ---
 ## 📸 Screenshots
